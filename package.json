@@ -1,0 +1,20 @@
+{
+  "name": "graphsjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^22.0.4"
+  },
+  "dependencies": {
+    "napajs": "^0.1.8"
+  }
+}
