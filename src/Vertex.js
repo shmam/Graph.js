@@ -29,7 +29,7 @@ module.exports = class Vertex{
     toString(){
         var result = this.data.toString() + ": ["; 
         for(var i = 0; i < this.adjv.length; i++){
-            result += (this.adjv[i].data .toString() + ","); 
+            result += (this.adjv[i].data.toString() + ","); 
         }
         return (result + "]");
     }
